@@ -41,7 +41,7 @@
       height="500"
     />
     <table>
-      <h2>Premier League Table</h2>
+      <h2 style="text-align:center; margin-bottom: 10px;">Premier League Table</h2>
       <tr>
         <th>Position</th>
         <th>Team</th>
@@ -54,7 +54,7 @@
         <th>GD</th>
         <th>Points</th>
       </tr>
-      <tr>
+      <tr class="top4">
         <td>1</td>
         <td>Arsenal</td>
         <td>7</td>
@@ -66,7 +66,7 @@
         <td>11</td>
         <td>16</td>
       </tr>
-      <tr>
+      <tr class="top4">
         <td>2</td>
         <td>Liverpool</td>
         <td>7</td>
@@ -78,7 +78,7 @@
         <td>4</td>
         <td>15</td>
       </tr>
-      <tr>
+      <tr class="top4">
         <td>3</td>
         <td>Tottenham</td>
         <td>7</td>
@@ -90,7 +90,7 @@
         <td>8</td>
         <td>14</td>
       </tr>
-      <tr>
+      <tr class="top4">
         <td>4</td>
         <td>Bourthemouth</td>
         <td>7</td>
@@ -102,7 +102,7 @@
         <td>3</td>
         <td>14</td>
       </tr>
-      <tr>
+      <tr class="fifth">
         <td>5</td>
         <td>Man City</td>
         <td>7</td>
@@ -138,27 +138,33 @@
         <td>4</td>
         <td>11</td>
       </tr>
-  <style>
-    table {
-      width: 80%;
-      border-collapse: collapse;
-      margin: 20px auto;
-    }
-
-    th, td {
-      border: 1px solid #333;
-      padding: 10px;
-      text-align: center;
-    }
-
-    th {
-      background-color: #222;
-      color: white;
-    }
-
-    tr:nth-child(even) {
-      background-color: #f2f2f2;
-    }
+      <style>
+        body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f6f8;
+  }
+  table {
+    width: 100%;
+    max-width: 900px;
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  th, td {
+    padding: 10px 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  th {
+    background-color: #0a79ad;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+</style>
+</head>
   </style>
 </head>
 <body>
